@@ -59,7 +59,6 @@
             hooks = {
               commitizen.enable = true;
               clang-format.enable = true;
-              cmake-format.enable = true;
             };
           };
         };
