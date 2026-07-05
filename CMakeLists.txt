@@ -11,9 +11,9 @@ find_package(Vulkan REQUIRED)
 find_package(Glfw3 REQUIRED)
  
 add_library(vulkan_app
-	src/init.cpp
-	src/pipeline.cpp
-	src/vk_types.cpp
+  src/init.cpp
+  src/pipeline.cpp
+  src/vk_types.cpp
 )
 
 target_include_directories(vulkan_app PUBLIC include)
