@@ -10,7 +10,7 @@ catch_discover_tests(unit_tests)
 find_program(SPIRV_VAL spirv-val REQUIRED)
  
 foreach(SPV ${SHADER_SPV_FILES})
-    get_filename_component(SPV_NAME ${SPV} NAME)
-    add_test(NAME "spirv_val.${SPV_NAME}" COMMAND ${SPIRV_VAL} ${SPV})
+  get_filename_component(SPV_NAME ${SPV} NAME)
+  add_test(NAME "spirv_val.${SPV_NAME}" COMMAND ${SPIRV_VAL} ${SPV})
 endforeach()
  
