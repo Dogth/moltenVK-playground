@@ -5,6 +5,7 @@ build
 shader/bin
 
 # Misc env files
+.cache
 .direnv
 .envrc
 .pre-commit-config.yaml
