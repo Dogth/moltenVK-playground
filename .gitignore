@@ -1,0 +1,11 @@
+# Build artifacts
+build
+
+# Shader compilation artifacts
+shader/bin
+
+# Misc env files
+.direnv
+.envrc
+.pre-commit-config.yaml
+.DS_Store
