@@ -48,7 +48,7 @@ foreach(SHADER ${SHADER_SOURCES})
       COMMENT "Compiling shader ${SHADER_NAME}"
       VERBATIM
   )
-list(APPEND SHADER_SPV_FILES ${SPV_OUT})
+  list(APPEND SHADER_SPV_FILES ${SPV_OUT})
 endforeach()
  
 add_custom_target(shaders ALL DEPENDS ${SHADER_SPV_FILES})
